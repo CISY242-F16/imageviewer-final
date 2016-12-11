@@ -1,8 +1,11 @@
 #BlueJ class context
 comment0.params=name
 comment0.target=Filter(java.lang.String)
-comment0.text=\n\ Create\ a\ new\ filter\ with\ a\ given\ name.\n\ @param\ name\ The\ name\ of\ the\ filter.\n
+comment0.text=\r\n\ Create\ a\ new\ filter\ with\ a\ given\ name.\r\n\ @param\ name\ The\ name\ of\ the\ filter.\r\n
 comment1.params=
 comment1.target=java.lang.String\ getName()
-comment1.text=\n\ Return\ the\ name\ of\ this\ filter.\n\ \n\ @return\ \ The\ name\ of\ this\ filter.\n
-numComments=2
+comment1.text=\r\n\ Return\ the\ name\ of\ this\ filter.\r\n\ \r\n\ @return\ \ The\ name\ of\ this\ filter.\r\n
+comment2.params=image
+comment2.target=void\ apply(OFImage)
+comment2.text=\r\n\ Apply\ this\ filter\ to\ an\ image.\r\n\ \r\n\ @param\ \ image\ \ The\ image\ to\ be\ changed\ by\ this\ filter.\r\n
+numComments=3

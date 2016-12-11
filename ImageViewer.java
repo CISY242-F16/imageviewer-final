@@ -14,10 +14,12 @@ import java.util.Iterator;
  * ImageViewer is the main class of the image viewer application. It builds and
  * displays the application GUI and initialises all other components.
  * 
+ * Modiified to add 3 new filters, greenFilter, redFilter, and blueFilter.
+ * 
  * To start the application, create an object of this class.
  * 
- * @author Michael Kölling and David J. Barnes.
- * @version 3.1
+ * @author Michael Kölling and David J. Barnes and Dana Sabatino
+ * @version 3.2
  */
 public class ImageViewer
 {
@@ -255,6 +257,9 @@ public class ImageViewer
         filterList.add(new GrayScaleFilter("Grayscale"));
         filterList.add(new EdgeFilter("Edge Detection"));
         filterList.add(new FishEyeFilter("Fish Eye"));
+        filterList.add(new GreenFilter("Green"));
+        filterList.add(new RedFilter("Red"));
+        filterList.add(new BlueFilter("Blue"));
        
         return filterList;
     }
